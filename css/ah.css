@@ -1,0 +1,97 @@
+img{
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  .clr {
+    clear: both;
+  }
+ 
+  .container {
+    width: 85%;
+    margin: auto;
+  }
+ 
+  .p-70 {
+    padding: 70px 0;
+  }
+.navbar .nav-item .nav-link{
+    font-family:"Josefin Sans",sans-serif; 
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+.navbar .nav-item{
+    margin: 0px 20px;
+}
+.navbar{
+    background-color: rgb(243, 243, 243);
+}
+.navbar .dropdown{
+    font-family:"Josefin Sans",sans-serif;
+}
+.navbar .navbar-nav>li>a:hover{
+    color: red;
+}
+.About .card-body h1{
+    font-family: "Josefin Sans",sans-serif;
+    color: #0b1c39;
+    margin-top: 0px;
+    font-style: normal;
+  font-size: 100px;
+    line-height: 1.2;
+    margin-bottom: 26px;
+    font-weight: 700;
+
+}
+.About .card-body p {
+    display: block;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 600;
+    margin-bottom: 39px;
+    color: #212025;
+    margin-bottom: 60px;
+    padding-right: 50px;
+}
+.About .card-body{
+    margin-top: 150px;
+}
+.About .card-img img {
+    height: 100vh;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: #666666;
+    font-size: 20px;
+    transition: all .5s;
+    position: relative;
+    z-index: 1;
+    color: aliceblue;
+}
+.btn::after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: red;
+    inset: 0;
+    z-index: -1;
+    border-radius: 0%;
+    
+}
+.btn:hover::after {
+    width: 100%;
+}
+.btn:hover{
+    color: aliceblue;
+}
+.queen .card {
+    border: none;
+}
+
+
